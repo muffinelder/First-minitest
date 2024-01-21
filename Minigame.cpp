@@ -13,8 +13,8 @@ int main() {
 	
 	std::cout<< "Welcome to mini adventure land. Please enter a name for your character:\n";
 	char character_name[20];
-	bool is_name_chosen = true;
-	while (is_name_chosen) {
+	bool is_name_not_chosen = true;
+	while (is_name_not_chosen) {
 		std::cin.get(character_name, 20);
 		test_for_exit(character_name);
 		cleared();
