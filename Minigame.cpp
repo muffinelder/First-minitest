@@ -22,7 +22,7 @@ int main() {
 		character_name[0] = toupper(character_name[0]);
 		std::cout<< "Your name is " << character_name << std::endl << "Do you want to keep it? (y/n): ";
 		if (tolower(getchar()) == 'y') {
-			is_name_chosen = false;
+			is_name_not_chosen = false;
 		} else {
 			std::cout << "Please input your new character name: " << std::endl;
 			cleared();
